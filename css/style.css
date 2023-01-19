@@ -7,6 +7,8 @@
 body {
     margin: 25px 0;
     font-family: 'Fredoka', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .clearfix {
@@ -15,13 +17,53 @@ body {
     clear: both;
 }
 
-header .header-container  {
-    max-width: 1200px;
-    margin: 0 auto;
+.tw {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #56c9dd;
+    display: block;
+}
+
+/* /Utilities */
+
+
+header .header-container {
+    margin-top: 30px;
     text-align: center;
+
 }
 
 header .header-container h1 {
     color: #e53170;
     padding-bottom: 1.5em;
 }
+
+/* /Header */
+
+.col {
+    width: 400px;
+    height: 100px;
+    margin: 40px 10px 20px 40px;
+    background-color: black;
+    float: left;
+    border: none;
+    box-shadow: 5px 5px 20px;
+}
+
+div>img {
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+
+}
+
+div h3,
+span,
+a {
+    padding: 10px 0;
+}
+
+.col-1 {}
